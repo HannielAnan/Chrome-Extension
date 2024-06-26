@@ -1,0 +1,56 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    width:320px;
+    text-align: center;
+}
+header a {
+    display: block;
+    width: 100%;
+   
+}
+footer {
+    width: 100%;
+    padding: 10px 0;
+    border-top: 1px solid #d1d1d1;
+    font-size: 12px;
+    color: rgb(67, 67, 67);
+}
+.contacts {
+    background-color: #f5b901;
+    width: 100%;
+    color: #000;
+    padding: 5px 0;
+}
+#logo2{
+height: 100px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+#container {
+    padding: 50px;
+    background-image: url(icons.jpg); /* Your theme color */
+
+}
+.border {
+    height: 5px;
+    width: 100%;
+    background-color: #000;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #0c2b6e; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: darkblue;
+}
